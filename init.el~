@@ -1,0 +1,49 @@
+;; in new minos, built from 12/28/2003 source
+
+;; -----------------------------------------------------------------------------
+;; configure package
+;; -----------------------------------------------------------------------------
+
+(require 'package)
+(add-to-list 'package-archives '("gnu"   . "https://elpa.gnu.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+;; -----------------------------------------------------------------------------
+;; configure defaults
+;; -----------------------------------------------------------------------------
+
+; (menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+(setq inhibit-startup-message t
+      inhibit-startup-echo-area-message t
+      confirm-nonexistent-file-or-buffer nil
+      visible-bell 1
+      sentence-end-double-space nil)
+(fset 'yes-or-no-p 'y-or-n-p)
+(column-number-mode 1)
+(display-time-mode)
+(delete-selection-mode t)
+(setq initial-frame-alist
+      '(
+	(width . 102) ; character
+	(height . 53) ; lines
+	))
+(setq default-frame-alist
+      '(
+	(width . 102) ; character
+	(height . 55) ; lines
+	))
+
+;; -----------------------------------------------------------------------------
+;; configure recent
+;; -----------------------------------------------------------------------------
+
+(use-package recentf
+  :config
+  (add-to-list 'recentf-exclude "\\elpa")
+  (recentf-mode 1) ;;was t, set to 1 20220225 per systemcrafters
+  (setq recentf-max-saved-items 50)
+  (global-set-key (kbd "C-x f") 'recentf-open-files)
+  (global-set-key (kbd "C-x C-r") 'ido-recentf-open))

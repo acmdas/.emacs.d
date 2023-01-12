@@ -1,0 +1,24 @@
+#!/bin/bash
+echo "Backing up ~/data/* to backup"
+
+rsync -tvr --delete ~/data/ ~/backup/data 
+
+echo "Backing up ~/media/* to backup"
+
+rsync -tvr --delete ~/media/ ~/backup/media
+
+echo "Backing up ~/data/* to WDBOOK/data/"
+
+rsync -tvr --delete ~/data/ /media/das/WDBOOK/data/
+
+echo "Backing up ~/.cache/mu/xapian to WDBOOK" 
+
+rsync -tvr --delete ~/.cache/mu/xapian /media/das/WDBOOK/mu
+
+echo "Backing up ~/media/* to WDBOOK/media/"
+
+rsync -tvr --delete --exclude 'backup' ~/media/ /media/das/WDBOOK/media/
+
+echo "Last run at"
+
+date

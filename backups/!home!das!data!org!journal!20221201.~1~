@@ -1,0 +1,230 @@
+* Thursday, 12/01/2022
+:PROPERTIES:
+:CREATED:  20221201
+:END:
+** 06:32 2309-0628, 6:20 83. 33F fair, forecast 43F mostly sunny.
+** 06:34 Welcome to December.
+** 10:03 Copying backups to the 2TB external. V at therapy. Delicate laundry in progress. Plan a shower soon. Sent a text to the sibs saying no obligation to have a big event when Ans comes. Barb is dealing with Dean, Nancy is going to visit Sarah, and Rob and Cathy may be planning to be at the cabin.
+** 10:51 Screen froze at some point, just rebooted. Might have tried to stack too many file copies in “thunar” - copying to the 2TB. Will try again more slowly.
+** 14:40 Finished copying backups to removable media, installed mate environment to try to replace xfce. If I don’t like it, I’ll remove xfce and reinstall it. Maybe it will run for years again before it starts to screw up.
+** 14:56 Mate seems to work OK. Will take time to get it all lined up, but it’s basically working.
+** 22:38 Removed Mate utterly, to the best of my ability. Logged in as david and found that the screen didn’t blank. Compared that xfce power config file with das’ and found one extra line in das’. I’ve just edited that out and rebooted. Maybe that will help.
+** 22:50 Didn’t help.
+** 22:50 Will keep looking. There’s something about how david is configured that is different in a way that makes a difference.
+* Friday, 12/02/2022
+:PROPERTIES:
+:CREATED:  20221202
+:END:
+** 06:09 2324-0600, 6:06 85. 55F clear, forecast 51F sunny.
+** 10:48 Created new user “alan” - no screen blanking. Researched at length, don’t think that xfce-power is the source, and xscreensaver isn’t installed, but there is something weird. Anyway, I deleted all of the contents of .config/xfce4 after copying to data, and rebooted. Things seem to run OK, will have to reconfig thunar and shell and panels, but it might be worth it if the screen blanking thing is fixed. I need to now go away for 5-10-15 minutes and see what happens. I guess I should do stim and exercises.
+** 11:07 Screensaver of some sort activated - looks like 15 minutes. I’m going to try logging into alan again and giving it more time.
+** 11:42 All this time in “alan” and no blanking. Looks to me like the thing to do is to backup /home/das/*, list all “das” characteristics (userno, groups, etc), then delete das, reboot, and recreate das with those characteristics (so as not to have to update all the file ownerships everywhere). A little research to be done first.
+** 12:54 Old das is gone, new das exists, seems to have access to old das’ files. Emacs is working now - started with just copying init.el and early-init.el into .emacs.d and fired ‘er up. Had to copy a few .el files over, but it seems to be working now. Will be a bit shy about starting elfeed and mu4e up until I’m sure that all the supporting dot files are in place. I think I’ll work on getting Brave configured next by copying over the .config folder.
+** 13:17 copied over several config folders beside Brave - GnuCash, calibre, geegie, that sort of thing. Hope none of them trigger the screensave. For that matter, I haven’t left this alone to see whether it’s ok now. Probably should sooner rather than later.
+** 17:28 It was going to screensaver, but only because that’s the default behavior. I reconfigured the power app and it seems to be fine now. Salmon, fries and fried cabbage for dinner.
+** 22:04 Just bought Jesse’s gifts - a bird bath from Amazon and a gift card from Image Comics - total $100.
+** 22:45 Off to bed now. Updated Brave and Chrome-Stable.
+* Saturday, 12/03/2022
+:PROPERTIES:
+:CREATED:  20221203
+:END:
+** 06:26 2332-0625, 6:12 86. 50F rain, forecast 60F rain.
+** 10:11 Zoom was weird this morning - mostly video - and read that the only known cure was completely removing it, rebooting and reinstalling. Which I did, and will do (reboot) now.
+** 10:38 Rebooted, haven’t installed Zoom yet. Need to get our Part D changes done today or tomorrow. Next week I may be caught-up in Jury Duty - or maybe not. They may not need me.
+** 11:03 And the screen blanked and locked. Reset just now to not lock, but the setting was to not blank at any time, so wha?
+** 11:45 Played with Zoom - display settings includes the ability to rotate my image by 90 degrees. Doing that seems to have fixed the green flashing. We’ll see if that sticks. Screen blanking still happens - I set it from “never” to “60 minutes” and we’ll see if it listens to that. Sophia just came by and I fixed her toast. She’s chatting with V now.
+** 12:13 Screen blanked in a lot less than an hour. It’s completely ignoring the xfce power config. I’m sure that somewhere in the logs it’ll tell me what else is doing this - xscreensaver, perhaps?
+** 13:49 Well, we do both have new Part D coverage. Much less expensive for her, a few hundred less for me. We’ll be looking for a source of 1% ivermectin cream for her - will probably need to get it from a vet source like a farm store.
+** 22:24 Saw the movie “Passing” with Nancy and Rick, then had dinner at our house, Chinese and pizza. They left not too long ago. V is talking to Craig, then we’ll do EP. A new copy of Thornton’s Prayer arrived today, as did Adam’s REI gift card.
+* Sunday, 12/04/2022
+:PROPERTIES:
+:CREATED:  20221204
+:END:
+** 06:48 0006-0643, 6:09 83. 33F clear, forecast 45F sunny.
+** 08:57 Slept late, didn’t go to the meeting. Balanced AmEx records.
+** 13:44 Back from Church.
+** 18:41 Discovered the solution to the screen blanking finally. Entered it into .xinitrc. “xset -dpms <enter>xset s off”
+** 22:01 Pizza and soup for dinner. Hung pictures in the hall, worked on framing a few to hang later. Time to do EP.
+* Monday, 12/05/2022
+:PROPERTIES:
+:CREATED:  20221205
+:END:
+** 06:17 2325-0605, 6:10 81. 23F clear, forecast 49F mostly sunny.
+** 13:52 Moved table from back bedroom to V’s studio. Moved printer. Jerry has a cold so I won’t be driving him tonight. Think I’ll skep Mens’ Dinner and just go to the meeting.
+** 18:30 Just learned that I will be going to the Courthouse tomorrow at 0830. Had salmon salad and cole slaw for dinner. Began transcribing Thornton’s Margery Kempe book this morning. Bought gifts for Jackie, Finn and Graham today, so we’re 90% done. All I have for V is the calendar, and we need to find something to give Ans that she can carry home. Worked on the back bedroom - reorganized part of the office. A pretty good day’s work, all in all.
+* Tuesday, 12/06/2022
+:PROPERTIES:
+:CREATED:  20221206
+:END:
+** 05:55 2301-0545, 6:07 79. 38F rain, forecast 48F rain.
+** 08:55 V woke with a sore throat - I announced sickness and am not at Court. Will leave soon to get more tests at Walgreens and go to Aldi. Then plan to bake bread. V tested and is negative for Covid so far.
+** 14:59 Bread is out of the oven, and so is granola. Doing both at the same time is sub-optimal. I had to raise the loaves in the pans on top of the stove, quite warm due to the 350F oven baking the granola. Then the loaves and granola coexisted in the oven. Both are cooling off now. V is talking with Ans now. We moved ahead with the curtains in the guest bedroom - both the closet door and the window. We have brackets that will work with the window blinds, so that’s a help. We’re doing OK for getting ready in two weeks. The Court will call me to jury duty again sometime next Spring.
+** 21:25 Got Ans’ itinerary, bought V a silk skirt and shearling moccasins.
+** 22:53 One curtain side is up in the closet. That’s all for tonight.
+* Wednesday, 12/07/2022
+:PROPERTIES:
+:CREATED:  20221207
+:END:
+** 06:31 2343-0628, 6:07 82. 51F fog, forecast 6F rain.
+** 23:02 Did some scanning, brought Christmas stuff up from crawl space. Choir this evening. Need to set up dropbox on Minos again.
+* Thursday, 12/08/2022
+:PROPERTIES:
+:CREATED:  20221208
+:END:
+** 06:25 2331-0615, 6”15 85/42F partly cloudy, forecast 53F partly cloudy.
+** 12:19 V decided to use the small artificial tree rather than spend $95 for a live 6’ tree. I got the box out of the crawl space, set up the larger artificial tree on the deck, got the wreath out and put the boxes and the wreath bag back into the crawl space. Got the three audio files for the Rule Retreat downloaded and transcribed. Might do the sermons, too. Saw that for both V and I, some of our meds are cheaper if bought locally than if through the mail-order. Printed the sheet and highlighted the best prices for each med.
+** 17:04 Changed a few things in init.el - url for elpa is now http, not https, full emacs boots fast now. Removed all the modus-* theme packages and configured to use built-in modus-theme.
+** 18:26 Got the second curtain hung in the back bedroom closet. Fixing dinner now.
+* Friday, 12/09/2022
+:PROPERTIES:
+:CREATED:  20221209
+:END:
+** 06:42 2255-0641, 7:07 87. 33F clear, forecast 48F sunny.
+** 07:26 I said most of EP before I realized what I was doing, went back and said MP - skipped the Creed and Our Father and the Collects I’d already said.
+** 11:50 Fixed the new shelves on the R of the fireplace - both sides are the same now, not finished, but the same. Talked to Carl. Missed a call from Babkes office again. V is at Wegman’s. Ladder is waiting for me outside the garage at Mim’s. Time for lunch.
+** 15:17 Got ladder from Mim and used the blower to clean the NE gutter. All the gutters are clean now. I may install a gutter guard there next Spring - that’s the only gutter that traps leaves. Bagges the leaves on the ground between the house and Bruce’s fence. Outdoors seems to be pretty well fixed for the winter.
+** 20:57 Hung three pictures in the Guest Bedroom, tested the mattress and found it to be OK.
+* Saturday, 12/10/2022
+:PROPERTIES:
+:CREATED:  20221210
+:END:
+** 06:10 2316-0605, 6:13 82. 28F fair, forecast 46F partly cloudy.
+** 13:55 Helped strain the mulled cider, started the Thornton Margery Kempe eBook. Through chapter 3. Started transcribing chapter 4. Off to Church for Jingle Mingle at 1430.
+** 18:24 Jingle Mingle was fun. Not too big a crowd, but enough and there was lots of food. We stayed to help clean up, I carried the trash to the dumper.
+** 23:11 Messed with the kindle fire when it wouldn’t let me delete some old “samples” - removed the card, rebooted, deleted the few files that were on the device itself, got to having zero downloaded items, then deleted all files on the card and reinstalled. Seems to be working OK now. Won’t try to download all of the files now. I should have them all on calibre, anyway.
+* Sunday, 12/11/2022
+:PROPERTIES:
+:CREATED:  20221211
+:END:
+** 06:32 2355-0625, 5:52 85. 38F cloudy, forecast 46F cloudy.
+** 20:59 Went to Mass, sang “A Voice Cries Out” - came home and hung the window curtains in the guest bedroom.
+* Monday, 12/12/2022
+:PROPERTIES:
+:CREATED:  20221212
+:END:
+** 07:05 2236-0704, 7:33 88. 39F cloudy, forecast 43F mostly cloudy.
+** 11:10 Took the big crock pot back to Mim’s, picked up the two offsite drives to update and take one back. Sent an email to Ball State library. V has PT this morning, I’ll research storage lockers nearby and make a choice where to get one for this month, maybe next. Hope to get the guest bedroom mostly empty today.
+** 11:46 Caught up on Chase and AmEx - got Chase credits for Kindle Unlimited and PeiWei. Joined KU for $4.95 for 2 months - ending on Feb 12.
+** 13:26 Got the locker rented - about to load the car and take it up.
+** 14:22 The first load is in the locker - 3rd floor, #3610, code *35755#
+** 22:59 Sent Nick a Jacqui Lawson this morning. Also sent eCards to everyone for Christmas. Texted Nick this evening.
+* Tuesday, 12/13/2022
+:PROPERTIES:
+:CREATED:  20221213
+:END:
+** 06:36 2335-0635, 6:12 82. 28F partly cloudy, forecast 41F partly cloudy.
+** 13:19 Talked with the lawyers about the RAC suit, sent them copies of the related emails. Took a load to the locker. Ans’ bedroom is almost ready to go.
+** 14:38 Ans’ bedroom is swept, almost ready. Sheets ready to wash. Family photos arrayed on the bed. Two drawers under the bed empty to hold framed pictures.
+** 20:07 Collected pictures of Barb for Eva and Nancy. Brave, or DuckDuckGo, or copy/paste went weird so I just now rebooted.
+** 21:25 Rebooted again. Accidentally “removed” panels, fortunately restored on reboot. What I want to do is stop defaulting to emacs client all the time.
+* Wednesday, 12/14/2022
+:PROPERTIES:
+:CREATED:  20221214
+:END:
+** 07:09 0043-0701, 5:37 86. 21F fair, forecaqst 43F partly cloudy.
+** 07:45 Joining the AA meeting late today...
+** 11:28 3rd step was fixated on “spiritual, not religious” which always seems to become “attack the only outside issue we’re allowed to attack in AA, i.e., “organized religion”, i.e., Christianity. So I arrived five minutes late and stayed ten minutes. Showered, put Ans’ blanket out to air again. Updated kindle on Mac and will import into calibre on minos now. Al-Anon Zoom starts in 15. Just now rsync’d home to backup including .cache, lest I mess up XFCE again. For the moment it’s working reasonably well. May want to disable moving from workspace to workspace by mouse wheel on desktop. It’s too unreliable in the sense that it happens when I’m not expecting it to. Hope to visit RAC houses today - copied my Monday message to Mike to the rest of the RAC since there was no change in the apps.
+** 15:43 Visited all of the RAC houses. Attached lights to the front of the deck. Moved keyboard tray to foot of the driveway.
+* Thursday, 12/15/2022
+:PROPERTIES:
+:CREATED:  20221215
+:END:
+** 05:55 23:05-0540, 6:28 85. 32F freezing rain, forecast 45F rain.
+** 08:02 Left meeting early - 0900 at PT. Pictures are ready at Dodge-Chrome. Should get cards out to Dan, Kos, who else? Looks like all of our $$ from AssetMark got to PNC, none to Church. Check with Ben’s people, then deposit this Sunday. Wrapped most of the gifts last night - may need to buy some bags for the little square toys. Hanging pictures in the hall a priority today. RAC tonight.
+** 10:36 PT rescheduled to 12/19 at 1515. Wrote to Laura and Jeanne at Ben’s to try to find out whether the check to St Paul’s was cut and sent. I’m inclined to think not. V is at Giant getting mushrooms for Hunters’ Sauce. When she gets back I’ll head down to Dodge-Chrome to pick up the pictures.
+** 11:44 Back with the prints - they look pretty nice. V is online with her therapist so I’ll stick in here for now.
+** 15:43 V went to get a haircut, when she got back we hung pictures on the N side of the hall - mostly kids and group shots. Looks nice. Made Ans’ bed, and her room is about all ready.
+** 18:51 Got things squared away with Ben’s - they’ll pull $3,500 back out of my checking, and the check has been sent to St. Paul’s. Ham, Harvard Beets and roast potatoes for dinner. Off to the RAC now.
+* Friday, 12/16/2022
+:PROPERTIES:
+:CREATED:  20221216
+:END:
+** 06:11 2302-0605, 6:35 89. 42F cloudy, forecast 57F some sun.
+** 12:18 Had a good talk with Carl. Loaded boxes into the car, empty boxes into the recycling bin. Ready to go to the locker and to Aldi.
+** 13:36 Locker isn’t full by any means, but most of what’s going there is there. Gas is $2.89 at Costco, and the line was too long. Made a big Aldi shop, two loaves of raisin bread, milk and eggs, crackers and chips, lemons and kiwis (3 lbs). Cards sent to Sharon, Dan, Carl, and Kos. A reasonably useful morning.
+* Saturday, 12/17/2022
+:PROPERTIES:
+:CREATED:  20221217
+:END:
+** 06:25 2258-0620, 87. 33F fair, forecast 44F sunny. V is awake.
+** 08:22 V went back to bed at 0730 - I will waken her at 0930. We leave for Choir practice at 1030.
+** 15:40 Got back from choir practice at 1300. Had lunch and started baking bread. V went shopping for Ans’ present. Sophia and Vivian are in a parade at 1600. I’ll snip out and try to see them (and be seen by them) and get back when the bread’s done rising.
+** 22:31 Bread turned out OK even though it had a third rising and rose a bit too much in the pans. It tastes great, although it looks a bit wrinkly on top. Had spaghetti for dinner.
+* Sunday, 12/18/2022
+:PROPERTIES:
+:CREATED:  20221218
+:END:
+** 06:06 2311-0600, 6:10 83. 33F fair, forecast 33F sunny.
+** 09:21 Showered, shaved, dressed ready for Church. May be away all day - we will practice for Lessons and Carols after Mass today, which likely will go past 1400, and the event starts at 1700. Will take a kindle with me this time in case we just stay in the basement and wait. V has started assembling things for Nanaimo Bar, bless her heart. Ordered a hardback copy of the Trent Catechism to go with the Kindle version and the newer Catholic Catechism. Also ordered a Kindle Baltimore Catechism. Setting myself up to do some comparison and study, since we new-style-old Anglicans seem to be lacking in systematic theology. What is it we believe, as if it is of foremost importance?
+** 15:20 Back from Church at 1400. Need to leave again at 1615 or earlier. V is working on Nanaimo Bar. I ran to Giant for chocolate, mushrooms and lettuce.
+* Monday, 12/19/2022
+:PROPERTIES:
+:CREATED:  20221219
+:END:
+** 06:50 20323-0642, 7:26 91. 25F clear, forecast 39F sunny.
+** 23:10 Made granola. Tidied up some.
+* Tuesday, 12/20/2022
+:PROPERTIES:
+:CREATED:  20221220
+:END:
+** 05:38 2350-0537, 5:05 80. 21F fair, forecast 43F clear.
+** 17:50 Not surprisingly, Ans’ flights got changed, and then she was hours late leaving Amsterdam. She’s about overhead now, headed for Atlanta. Won’t know for several hours which ATL-BWI flight she’ll be on. V is watching TV now. The house is ready at least.
+* Wednesday, 12/21/2022
+:PROPERTIES:
+:CREATED:  20221221
+:END:
+** 01:51 Her plane arrived around 0035 and we got home a little while ago. Just said EP.
+** 08:22 0320-0620, 26F sunny, 5:16 81. forecast 43 sunny.
+** 10:17 Said MP, Ans got up around 0900, V closer to 1000. A is showering, they plan a Wegmans run before V’s 1400 Dr. appt. Then off to Barb’s for 1600 tea.
+** 21:36 The tea at Barb’s was completely great. Got home around 2100.
+* Thursday, 12/22/2022
+:PROPERTIES:
+:CREATED:  20221222
+:END:
+** 06:02 2344-0600, 5:38 81. 34F cloudy, forecast 47F rain.
+** 13:46 We decided to have pizza and salad tonight with Mim’s family. Went to Giant for lemon cake and imodium. Cleared the dining room table. All gifts are wrapped now. V and A finished Nanaimo bar and fixed other goodies. Got binders ready for Christmas Eve choir. Ben’s will issue another check for St. Paul’s and send to me.
+** 21:37 Mim and Adam took us out to cured for a very nice dinner. Still raining.
+* Friday, 12/23/2022
+:PROPERTIES:
+:CREATED:  20221223
+:END:
+** 06:11 2245-0609, 6:36 86/ 42F cloudy, forecast 44F rain/snow later, temp dropping.
+** 07:29 V awoke a few minutes ago. Meeting time.
+** 22:01 V&A went to Wegmans for side dishes, I ordered V’s ticket to Amsterdam for next May. May have done it wrong - will call them in the AM. We walked to Mim’s - very windy and cold. Went for a drive and ate at Mission BBQ.
+* Saturday, 12/24/2022
+:PROPERTIES:
+:CREATED:  20221224
+:END:
+** 06:23 2328-0622, 5:56 80. 4F clear, forecast 20F mostly clear.
+** 06:25 Feels comfortable indoors.
+** 12:44 Arranged with Expedia to get the credit without changing the flight information. Ticket cost is higher, and it might have not become the economy plus. I’ll check that later. Shopped at Giant, did the dishes, scanned papers. Will pay Cigna Part D bills now.
+** 17:53 Spinach and pumpkin pie is done. Girls came over and helped with the pie. Making Ans’ saurkraut/potato/ground beef dish for dinner. Die Hard DVD arrived.
+* Sunday, 12/25/2022
+:PROPERTIES:
+:CREATED:  20221225
+:END:
+** 01:15 Back from the Midnight Mass. Tired, back hurts. Merry Christmas anyway. We did a lot today and are really all ready for tomorrow’s dinner. Well done, Valerie, Ans and David.
+** 06:46 0046-0645, 4:34 78. 8F clear, forecast 30F sunny.
+** 22:32 Lovely Christmas morning with V and Ans. We opened our gifts and went to Miriam’s at about 1045. Good food, fellowship including Mike and his gf. I walked home around 2 and started the process of warming the ham, Wegmans sides and spinach. V and Ans came home around 1500, the kids arrived at 1745 and dinner was a treat. They all left around 2000, we tidied up and Ans went to bed a few minutes ago. V is talking with Craig. Rob P. called this morning, and I called Adriana from Mims. I left a message for Jen after getting her correct number from Adriana.
+* Monday, 12/26/2022
+:PROPERTIES:
+:CREATED:  20221226
+:END:
+** 06:06 2349-0601, 5:30 81. 15F clear, forecast 32F cloudy.
+** 11:56 Christmas (and Boxing Day morning) dishes are done. V and A are at the mall with the girls - Ans needs to return the sweater that V bought her. The ballet begins at 1900, want to get there by 1815. I plan to hang out for the 2 hour (or 2:25) run time. Probably find a parking place and then a restaurant. Take the kindle and dress warmly.
+** 23:19 Things went very smoothly. They got to the theatre exactly on time, were seated in plenty of time, I found street parking two blocks away, learned that the finish time would be around 2100, and went to the Hotel Hamilton for dinner. Had a nice cuppa, a crab-cake sandwich and creme brulee. Finished and got back to the car just minutes before V called that they were at the door. Met them in a few minutes, and drove up 14th and 16th streets to Silver Spring, then home on 29. Got home shortly after 2200.
+* Tuesday, 12/27/2022
+:PROPERTIES:
+:CREATED:  20221227
+:END:
+** 06:29 2345-0623. didn’t wear fitbit to bed. 27F cloudy, forecast 39F partly cloudy.
+** 15:16 Ans’ last day here. We walked to Mim’s for coffee. Not too ambitious. Will leave for BWI at 1630 or so.
+** 17:16 Back from BWI - not a difficult drive but hard to say goodbye to Ans.
+** 23:12 Root fs was full - deleted all of the apt archive and was able to log in again. Clearly time to resize the root fs - take it away from home, perhaps, or maybe upgrade. It will be a challenge since I can’t get into the BIOS on minos without pulling the battery to reset the date. I don’t think that it’s possible to reset the BIOS date systematically.
+* Wednesday, 12/28/2022
+:PROPERTIES:
+:CREATED:  20221228
+:END:
+** 06:47 0049-0645, 5:2078. 22F clear, forecast 47F sunny.
+** 08:32 Didn’t attend 3rd Step today. Getting ready to (a) recover stuff from locker, and (b) take some space from /home and give to /. After that, consider either updating to a fresh, newer Debian or perhaps another distro like Arch. Will have to overcome the bios problem, of course, before I can boot from anything other than the current /.
+** 13:42 Got a carload in house from the locker - luggage, some boxes. Decided to stick with Debian 11 for the time being, but it’s worth doing a fresh install instead of just tweaking the filesystem sizes. So let’s see how this goes. Hope to be back with you later tonight.
