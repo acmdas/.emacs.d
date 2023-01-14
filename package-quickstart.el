@@ -284,6 +284,52 @@ with the specified `:load-path' the module cannot be found." t nil)
 
 
 )
+(let ((load-true-file-name "/home/das/.emacs.d/elpa/org-static-blog-20221212.1051/org-static-blog-autoloads.el")(load-file-name "/home/das/.emacs.d/elpa/org-static-blog-20221212.1051/org-static-blog-autoloads.el"))
+
+(add-to-list 'load-path (directory-file-name
+                         (or (file-name-directory "/home/das/.emacs.d/elpa/org-static-blog-20221212.1051/org-static-blog-autoloads.el") (car load-path))))
+
+
+
+(autoload 'org-static-blog-publish "org-static-blog" "\
+Render all blog posts, the index, archive, tags, and RSS feed.
+Only blog posts that changed since the HTML was created are
+re-rendered.
+
+With a prefix argument, all blog posts are re-rendered
+unconditionally.
+
+\(fn &optional FORCE-RENDER)" t nil)
+
+(autoload 'org-static-blog-publish-file "org-static-blog" "\
+Publish a single POST-FILENAME.
+The index, archive, tags, and RSS feed are not updated.
+
+\(fn POST-FILENAME)" t nil)
+
+(autoload 'org-static-blog-create-new-post "org-static-blog" "\
+Creates a new blog post.
+Prompts for a title and proposes a file name. The file name is
+only a suggestion; You can choose any other file name if you so
+choose.
+
+\(fn &optional DRAFT)" t nil)
+
+(autoload 'org-static-blog-create-new-draft "org-static-blog" "\
+Creates a new blog draft.
+Prompts for a title and proposes a file name. The file name is
+only a suggestion; You can choose any other file name if you so
+choose." t nil)
+
+(autoload 'org-static-blog-mode "org-static-blog" "\
+Blogging with org-mode and emacs.
+
+\(fn)" t nil)
+
+(register-definition-prefixes "org-static-blog" '("concat-to-dir" "org-static-blog-"))
+
+
+)
 (let ((load-true-file-name "/home/das/.emacs.d/elpa/org-journal-20221209.2122/org-journal-autoloads.el")(load-file-name "/home/das/.emacs.d/elpa/org-journal-20221209.2122/org-journal-autoloads.el"))
 
 
@@ -502,7 +548,7 @@ Show the bookmarked entry saved in the `RECORD'.
 )
 (setq package-activated-list
       (append
-       '(bind-key use-package org-journal elfeed)
+       '(bind-key use-package org-static-blog org-journal elfeed)
        package-activated-list))
 (progn
   (require 'info)
