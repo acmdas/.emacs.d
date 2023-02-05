@@ -1,0 +1,46 @@
+(setq user-emacs-directory "~/.emacs.1.d/")
+
+;; -----------------------------------------------------------------------------
+;; configure package
+;; -----------------------------------------------------------------------------
+
+(require 'package)
+(add-to-list 'package-archives '("gnu"   . "https://elpa.gnu.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+;; -----------------------------------------------------------------------------
+;; configure defaults
+;; -----------------------------------------------------------------------------
+
+;; -----------------------------------------------------------------------------
+;; configure org-static-blog
+;; -----------------------------------------------------------------------------
+
+(use-package org-static-blog)
+
+(load "~/.emacs.1.d/blog.el")
+
+;; -----------------------------------------------------------------------------
+;; configure recent
+;; -----------------------------------------------------------------------------
+
+
+;; -----------------------------------------------------------------------------
+;; configure backups
+;; -----------------------------------------------------------------------------
+
+
+;; -----------------------------------------------------------------------------
+;; configure org and org-related
+;; -----------------------------------------------------------------------------
+
+(use-package org
+  :init
+  (setq org-directory "~/data/org")
+  :config
+  (setq org-startup-truncated nil)
+  (setq org-export-with-smart-quotes t)
+  (setq org-indent-indentation-per-level 1)
+  (setq org-insert-heading-respect-content t)
+  (setq org-adapt-indentation nil)

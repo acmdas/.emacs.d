@@ -1,0 +1,230 @@
+;; Family & Friends' Birthdays
+%%(diary-anniversary 01 09 1947) Valerie's B'day
+%%(diary-anniversary 01 10) Abby Smyers B'day
+%%(diary-anniversary 01 24 1971) Bill W. RIP
+%%(diary-anniversary 01 24) Cindy K.'s B'day
+%%(diary-anniversary 01 24) Jim R.'s B'day
+%%(diary-anniversary 02 15 1991) Julia G's B'day
+%%(diary-anniversary 02 15) Sharon Hunt's B'day
+%%(diary-anniversary 03 05 1967) Adriana's B'day
+%%(diary-anniversary 03 05 1967) Sarah G's B'day
+%%(diary-anniversary 03 08 1967) Cheryl Phare's B'day
+%%(diary-anniversary 03 14 1914) Homer's B'day
+%%(diary-anniversary 03 18 2007) Finnegan's B'day
+%%(diary-anniversary 03 26 1982) Miriam's B'day
+%%(diary-anniversary 03 30 1943) Barbara's B'day
+%%(diary-anniversary 04 19) Colin's B'day
+%%(diary-anniversary 04 11 1996) Noah's B'day
+%%(diary-anniversary 04 22 1954) Nancy's B'day
+%%(diary-anniversary 04 24 1972) Biljana's B'day
+%%(diary-anniversary 04 27 1987) Jocelyn's B'day
+%%(diary-anniversary 07 02 1949) Joe H's B'day
+%%(diary-anniversary 07 04 1947) Kos B'day
+%%(diary-anniversary 07 10 1978) Jesse B'day
+%%(diary-anniversary 07 16 1989) Jennifer's B'day
+%%(diary-anniversary 07 24 1952) Robert's B'day
+%%(diary-anniversary 07 26 1961) Cathy's B'day
+%%(diary-anniversary 07 29 1950) Louise's B'day
+%%(diary-anniversary 08 03 2008) Sophia's B'day
+%%(diary-anniversary 08 09 1956) Rick's B'day
+%%(diary-anniversary 08 11 2003) Zachary's B'day
+%%(diary-anniversary 08 16 1944) John H's B'day
+%%(diary-anniversary 08 22 2008) Linden's B'day
+%%(diary-anniversary 09 16 1942) Bruce H's B'day
+%%(diary-anniversary 09 19 1988) Katy G's B'day
+%%(diary-anniversary 09 24 2008) Jackie's B'day
+%%(diary-anniversary 10 03 2010) Vivian's B'day
+%%(diary-anniversary 10 16 2010) Leahm's B'day
+%%(diary-anniversary 10 21 2006) Michael's B'day
+%%(diary-anniversary 11 06 1935) Dean's B'day
+%%(diary-anniversary 11 12 1980) Adam's B'day
+%%(diary-anniversary 11 12 1980) Devon's B'day
+%%(diary-anniversary 11 14 1991) Caitlyn's B'day
+%%(diary-anniversary 11 20 1916) Mildred's B'day
+%%(diary-anniversary 11 21 2008) Graham's B'day
+%%(diary-anniversary 11 23 1971) Aaron's B'day
+%%(diary-anniversary 12 02) Joan U's B'day
+%%(diary-anniversary 12 04 2001) Tara's B'day
+%%(diary-anniversary 12 07 2012) Mason's B'day
+%%(diary-anniversary 12 09 1947) Joe M's B'day
+%%(diary-anniversary 12 12 1984) Nick M's B'day
+%%(diary-anniversary 12 17 1990) Emily's B'day
+%%(diary-anniversary 12 21 2013) Paxton's B'day
+%%(diary-anniversary 12 30 1947) David's B'day
+
+;; Other Significant Family Events
+%%(diary-anniversary 02 09 1989) David's Last Drink
+%%(diary-anniversary 04 05 2004) Jesse & Jackie's Anniversary
+%%(diary-anniversary 04 09 1988) Robert & Cathy's Anniversary
+%%(diary-anniversary 07 02 1977) Wedding Anniversary
+%%(diary-anniversary 10 07 2006) Miriam & Adam's Anniversary
+%%(diary-anniversary 10 25 1980) Nancy & Rick's Anniversary
+%%(diary-anniversary 12 29 1993) David's AA B'day
+%%(diary-anniversary 12 31 1974) Our first date
+
+;; AA Related
+%%(diary-anniversary 01 04 2010) Joe Neitz's AA B'day
+%%(diary-anniversary 01 10 2010) Kristy Funk's AA B'day
+%%(diary-anniversary 11 16 1950) Dr Bob RIP
+
+;; Other Significant Events
+%%(diary-anniversary 06 06 1935) D-Day
+%%(diary-anniversary 06 10 1935) Founders' Day
+%%(diary-anniversary 07 01 1868) Canada Day
+%%(diary-anniversary 07 04 1776) Independence Day
+%%(diary-anniversary 12 31 2022) New Years' Eve
+
+;; Fixed Feast Days
+%%(diary-anniversary 01 01) Solemnity of Mary, Mother of God, Circumcision of Christ
+%%(diary-anniversary 01 02) St Basil the Great and St Gregory Nazianzen, Bishops and Doctors
+%%(diary-anniversary 01 03) Memorial of the Most Holy Name of Jesus
+%%(diary-anniversary 01 04) St Elizabeth Ann Seton
+%%(diary-anniversary 01 05) St John Neumann, Bishop and St Telesphorus, Pope and Martyr
+%%(diary-anniversary 01 06) Epiphany
+%%(diary-anniversary 01 09) Baptism of Our Lord
+%%(diary-anniversary 01 25) Conversion of St Paul
+%%(diary-anniversary 01 30) King Charles I, Saint and Martyr
+%%(diary-anniversary 02 02) Presentation of Christ, Purification of the BVM
+%%(diary-anniversary 02 24) St Matthias the Apostle
+%%(diary-anniversary 03 25) Annunciation of the B.V.M.
+%%(diary-anniversary 04 25) St Mark the Evangelist
+%%(diary-anniversary 05 01) Sts Philip and James the Apostles
+%%(diary-anniversary 06 11) St Barnabas the Apostle
+%%(diary-anniversary 06 29) St Peter the Apostle
+%%(diary-anniversary 07 25) St James the Apostle
+%%(diary-anniversary 08 24) St Bartholomew the Apostle
+%%(diary-anniversary 09 21) St Matthew the Apostle and Evangelist
+%%(diary-anniversary 10 18) St Luke the Evangelist
+%%(diary-anniversary 10 28) Sts Thomas and Jude the Apostles
+%%(diary-anniversary 11 21) Presentation of the BVM
+%%(diary-anniversary 11 30) St Andrew the Apostle
+%%(diary-anniversary 12 21) St Thomas the Apostle
+%%(diary-anniversary 12 24) Christmas Eve
+%%(diary-anniversary 12 25) Christmas
+%%(diary-anniversary 12 26) St Stephen, Deacon and Martyr
+%%(diary-anniversary 12 27) St John the Evangelist
+%%(diary-anniversary 12 28) Childermas, The Holy Innocents, Martyrs
+%%(diary-anniversary 12 29) Thomas a Becket, Bishop and Martyr
+%%(diary-anniversary 12 30) Our Lady of Bethlehem
+%%(diary-anniversary 12 31) St Sylvester I, Pope
+
+;; Weekly Repeating Events
+mon 6pm Men's Dinner
+mon 8pm Common Solution
+wed 11:45am Host Al-Anon
+wed 12:00pm Serenity Center Nooner
+fri 10am Carl
+
+;; 2022
+;; November
+11/17/2022
+ 9:45am PT
+ 7pm RAC
+
+Nov 17, 2022 Fiddle with Calendar and Diary
+
+11/22/2022
+ 12:30pm Dr Babkes
+
+11/24/2022 Thanksgiving
+
+11/25/2022 Thanksgiving Dinner
+
+Nov 22, 2022
+ 7:00pm OMCA Board Mtg.
+Nov 22, 2022 2:00pm Jackie brings Graham and Finn here
+Nov 18, 2022
+ 9:00am Meet Carillo
+Nov 23, 2022 9:45am PT - Karen
+Nov 27, 2022 Advent Sunday
+
+;; December
+12/01/2022
+ RAC 7:00pm
+
+12/03/2022
+ 9:00am Mission BBQ Brunch
+ 5:00pm Movie:Passing
+
+12/13/2022
+ 10:00am Ben Schneiderman
+ 07:00pm OMCA Board
+
+12/15/2022
+ 07:00pm RAC
+
+* 15 Clean Smoke Detectors
+Dec 11, 2022 Read Isaiah 35, I Cor, iv. 1.
+Dec 7, 2022 7:30pm Choir Practice
+Dec 10, 2022 3:00pm Jingle Mingle
+Dec 17, 2022 11am Choir Practice
+Dec 18, 2022 5pm Lessons and Carols
+Dec 19, 2022 3:15pm PT
+Dec 20, 2022 6:30pm P/U Ans at BWI
+Dec 21, 2022 4:00pm Tea at Barb's
+Dec 24, 2022 5pm Christmas Eve Family Service
+Dec 24, 2022 11pm Christmas Eve Service
+Dec 27, 2022 4:30pm Take Ans to BWI?
+Dec 29, 2022 9:00am PT Janice
+
+;; 2023
+
+;; Reading
+Jan 29, 2023 Read Deut. 4:5-13, 32-40, Rom xiii, 1.
+Mar 19, 2023 Read Exekiel 39:21-29, Gal. iv. 21.
+May 7, 2023  Read Job 19:21-27a, St. Jas. i. 17.
+Apr 9, 2023  Easter
+Jun 25, 2023 Read Gen. 9:1-17, I St. Peter, v. 5.
+Aug 13, 2023 Read Gen. 32:22-31, I Cor. 12:1.
+Oct 1, 2023 Read Ex. 5:1-9, 19-6:1, Eph. iv. 1.
+Nov 19, 2023 Read Joshua 23:1-3, 11-16, Col. i. 3.
+
+;; January
+Jan 5, 2023 7:00pm RAC
+Jan 16, 2023 9:15am Maria Gregory
+Jan 17, 2023 6:30pm Vestry
+Jan 19, 2023 9:45am PT
+Jan 19, 2023 10:30am Wesley
+Jan 19, 2023 7:00pm RAC
+Jan 20, 2023 1:30pm Dr. Babkes
+Jan 21, 2023 5pm Movie:The Duke
+Jan 23, 2023 8:30am RAC Trial
+Jan 24, 2023 8:30am RAC Trial
+Jan 24, 2023 6:30pm AC Appeal
+Jan 24, 2023 7:00pm OMCA Board Meeting
+Jan 26, 2023 10:20am Dr. Babkes - Zoom
+Jan 29, 2023 3pm Party for Sandy
+
+;; February
+Feb 11, 2023 9:00am Remnant
+Feb 21, 2023 Shrove Tuesday
+Feb 22, 2023 Ash Wednesday
+Feb 26, 2023 First Sunday in Lent
+
+;; March
+Mar 5, 2023 Second Sunday in Lent
+Mar 12, 2023 Third Sunday in Lent
+Mar 19, 2023 Fourth Sunday in Lent
+Mar 26, 2023 Passion Sunday
+
+;; April
+Apr 2, 2023 Palm Sunday
+Apr 6, 2023 Maundy Thursday
+Apr 7, 2023 Good Friday
+Apr 8, 2023 Holy Friday
+Apr 9, 2023 Easter Sunday
+Apr 10, 2023 Easter Monday
+
+;; May
+May 14, 2023 Rogation Sunday
+May 18, 2023 Ascension Day
+May 28, 2023 Pentecost (Whitsunday)
+
+;; June
+
+
+;; July
+
+
+;; August
+Aug 6, 2023 Transfiguration of Our Lord

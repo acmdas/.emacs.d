@@ -1,0 +1,93 @@
+(setq user-emacs-directory "~/.emacs.1.d/")
+
+;; -----------------------------------------------------------------------------
+;; configure package
+;; -----------------------------------------------------------------------------
+
+(require 'package)
+(add-to-list 'package-archives '("gnu"   . "https://elpa.gnu.org/packages/"))
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+;; -----------------------------------------------------------------------------
+;; configure defaults
+;; -----------------------------------------------------------------------------
+
+; (menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+(setq inhibit-startup-message t
+      inhibit-startup-echo-area-message t
+      confirm-nonexistent-file-or-buffer nil
+      visible-bell 1
+      sentence-end-double-space nil)
+(fset 'yes-or-no-p 'y-or-n-p)
+(column-number-mode 1)
+(display-time-mode)
+(delete-selection-mode t)
+(setq initial-frame-alist
+      '(
+	(width . 102) ; character
+	(height . 53) ; lines
+	))
+(setq default-frame-alist
+      '(
+	(width . 102) ; character
+	(height . 55) ; lines
+	))
+
+;; -----------------------------------------------------------------------------
+;; configure recent
+;; -----------------------------------------------------------------------------
+
+(use-package recentf
+  :config
+  (add-to-list 'recentf-exclude "\\elpa")
+  (recentf-mode 1) ;;was t, set to 1 20220225 per systemcrafters
+  (setq recentf-max-saved-items 50)
+  (global-set-key (kbd "C-x f") 'recentf-open-files)
+  (global-set-key (kbd "C-x C-r") 'ido-recentf-open))
+
+;; -----------------------------------------------------------------------------
+;; configure backups
+;; -----------------------------------------------------------------------------
+
+(setq backup-directory-alist '(("." . "~/.emacs.1.d/backups")))
+(setq delete-old-versions -1)
+(setq version-control t)
+(setq vc-make-backup-files t)
+(setq auto-save-file-name-transforms '((".*" "~/.emacs.1.d/auto-save-list/" t)))
+
+;; -----------------------------------------------------------------------------   
+;; always use UTF-8
+;; -----------------------------------------------------------------------------
+
+(set-charset-priority 'unicode)
+(setq locale-coding-system 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-selection-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+(setq default-process-coding-system '(utf-8-unix . utf-8-unix))
+
+;; -----------------------------------------------------------------------------
+;; configure org and org-related
+;; -----------------------------------------------------------------------------
+
+(use-package org
+  :init
+  (setq org-directory "~/data/org")
+  :config
+  (setq org-startup-truncated nil)
+  (setq org-export-with-smart-quotes t)
+  (setq org-indent-indentation-per-level 1)
+  (setq org-insert-heading-respect-content t)
+  (setq org-adapt-indentation nil)
+
+;; -----------------------------------------------------------------------------
+;; configure org-static-blog
+;; -----------------------------------------------------------------------------
+
+(use-package org-static-blog)
+
+(load "~/.emacs.1.d/blog.el")

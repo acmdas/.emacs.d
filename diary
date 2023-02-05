@@ -74,7 +74,7 @@
 %%(diary-anniversary 07 04 1776) Independence Day
 %%(diary-anniversary 12 31 2022) New Years' Eve
 
-;; Fixed Feast Days
+;; Fixed Feast Days, see https://en.wikipedia.org/wiki/Calendar_of_saints_(Church_of_England)
 %%(diary-anniversary 01 01) Solemnity of Mary, Mother of God, Circumcision of Christ
 %%(diary-anniversary 01 02) St Basil the Great and St Gregory Nazianzen, Bishops and Doctors
 %%(diary-anniversary 01 03) Memorial of the Most Holy Name of Jesus
@@ -82,10 +82,29 @@
 %%(diary-anniversary 01 05) St John Neumann, Bishop and St Telesphorus, Pope and Martyr
 %%(diary-anniversary 01 06) Epiphany
 %%(diary-anniversary 01 09) Baptism of Our Lord
+%%(diary-anniversary 01 10) William Laud, Archbishop of Canterbury
+%%(diary-anniversary 01 12) St Aelred of Hexham, Abbot of Rievaulx, Benedict Biscop, Abbot of Wearmouth
+%%(diary-anniversary 01 13) St Hilary, Bishop of Poitiers, Kentigern, Bishop Strathclyde and Cumbria
+%%(diary-anniversary 01 17) St Antony of Egypt, Hermet and Abbot
+%%(diary-anniversary 01 19) St Wulfstan, Bishop of Worcester
+%%(diary-anniversary 01 20) Richard Rolle
+%%(diary-anniversary 01 21) St Agnes, Martyr
+%%(diary-anniversary 01 22) St Vincent of Saragossa, Martyr
+%%(diary-anniversary 01 24) St Francis de Sales, Bishop
 %%(diary-anniversary 01 25) Conversion of St Paul
+%%(diary-anniversary 01 26) Sts Timothy and Titus
+%%(diary-anniversary 01 27) St John Chrysostom
+%%(diary-anniversary 01 28) St Thomas Aquinas
 %%(diary-anniversary 01 30) King Charles I, Saint and Martyr
-%%(diary-anniversary 02 02) Presentation of Christ, Purification of the BVM
+%%(diary-anniversary 02 01) St Brigid of Kildare, Abbess
+%%(diary-anniversary 02 02) Presentation of Christ, Purification of the BVM (Candlemas)
+%%(diary-anniversary 02 03) St Anskar, Archbishop and Missionary
+%%(diary-anniversary 02 04) St Gilbert of Sempringham
+%%(diary-anniversary 02 10) St Scholastica, Abbess
+%%(diary-anniversary 02 14) St Valentine, Martyr, Sts Cyril and Methodius, Missionaries
+%%(diary-anniversary 02 23) St Polycarp, Bishop and Martyr
 %%(diary-anniversary 02 24) St Matthias the Apostle
+%%(diary-anniversary 03 01) St David, Bishop, Patron of Wales
 %%(diary-anniversary 03 25) Annunciation of the B.V.M.
 %%(diary-anniversary 04 25) St Mark the Evangelist
 %%(diary-anniversary 05 01) Sts Philip and James the Apostles
@@ -197,6 +216,7 @@ Jan 29, 2023 3pm Party for Sandy
 
 ;; February
 Feb 11, 2023 9:00am Remnant
+Feb 18, 2023 8:30am Winter Retreat
 Feb 21, 2023 Shrove Tuesday
 Feb 22, 2023 Ash Wednesday
 Feb 26, 2023 First Sunday in Lent
